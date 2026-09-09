@@ -546,12 +546,19 @@ var handlers = []handler{
 		Transform: toValue(`IMAX`),
 		Remove:    true,
 	},
-	// edition: \b\.Diamond\.\b
+	// edition: \b\.(Diamond)\.\b
+	// "Diamond" alone is a common word in real titles (Blood Diamond, Ace
+	// of the Diamond), so the dots stay in the pattern to require the
+	// scene-tag separator context. MatchGroup restricts removal to the
+	// word itself so the flanking separators aren't consumed and fused
+	// into neighboring tokens (see episodes handler above for the same
+	// technique).
 	{
-		Field:     "edition",
-		Pattern:   regexp.MustCompile(`(?i)\b\.Diamond\.\b`),
-		Transform: toValue(`Diamond Edition`),
-		Remove:    true,
+		Field:      "edition",
+		Pattern:    regexp.MustCompile(`(?i)\b\.(Diamond)\.\b`),
+		MatchGroup: 1,
+		Transform:  toValue(`Diamond Edition`),
+		Remove:     true,
 	},
 	// edition: \bRemaster(?:ed)?\b
 	{
