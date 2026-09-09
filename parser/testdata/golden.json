@@ -1945,7 +1945,10 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Basic Instinct"
+      "title": "Basic Instinct",
+      "channels": [
+        "6.1"
+      ]
     }
   },
   {
@@ -20764,7 +20767,10 @@
       "quality": "BluRay",
       "resolution": "1080p",
       "title": "Movie",
-      "year": 2019
+      "year": 2019,
+      "channels": [
+        "6.1"
+      ]
     }
   },
   {

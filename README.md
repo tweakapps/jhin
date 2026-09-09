@@ -268,7 +268,7 @@ fuzzing.
 
 ## Accuracy
 
-`parser/testdata/golden.json` pins the expected output for 1,170 real-world
+`parser/testdata/golden.json` pins the expected output for 1,172 real-world
 release names across every field. Any behavioral regression fails CI.
 
 The corpus was seeded from the Python PTT 1.8.5 parser. jhin owns it and
@@ -281,6 +281,8 @@ pinned expectations, listed here:
 - A language fused to a sub token (`ENGSUB`, `ESub`, `VOSTFR`, `SWESUB`,
   `KORSUB`, `PLSUB`, `SUBFRENCH`) sets `Subbed`, not only `Languages`, and
   the plural `ESubs` sets `Languages` to `en` like the singular.
+- `6.1` is a real channel layout; PTT left `DTS-HD-HR-6.1` (`Basic
+  Instinct`) with no `Channels` at all.
 
 ## How it compares
 
