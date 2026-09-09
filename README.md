@@ -334,7 +334,7 @@ Field semantics follow [PTT](https://github.com/dreulavelle/PTT) 1.8.5
 - **Extension** (`string`): file extension
 - **Extras** (`[]string`): `Featurette`, `Sample`, `Trailer`, `NCED`, `NCOP`, ...
 - **Group** (`string`): release group
-- **HDR** (`[]string`): `DV`, `HDR10+`, `HDR`, `SDR`
+- **HDR** (`[]string`): `DV`, `HDR10+`, `HDR`, `HLG`, `SDR`
 - **Hardcoded** (`bool`)
 - **Languages** (`[]string`): ISO 639-1 codes (`en`, `ja`, `zh`, ...) plus `multi subs`, `multi audio`, `dual audio`
 - **Network** (`string`): `Netflix`, `Amazon`, `HBO`, ...
