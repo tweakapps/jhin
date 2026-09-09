@@ -20687,5 +20687,68 @@
       "upscaled": true,
       "year": 2020
     }
+  },
+  {
+    "title": "Movie.1080p.WEB-DL.Diamond.x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "edition": "Diamond Edition",
+      "group": "GROUP",
+      "quality": "WEB-DL",
+      "resolution": "1080p",
+      "title": "Movie"
+    }
+  },
+  {
+    "title": "Movie.1080p.BluRay.Diamond.x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "edition": "Diamond Edition",
+      "group": "GROUP",
+      "quality": "BluRay",
+      "resolution": "1080p",
+      "title": "Movie"
+    }
+  },
+  {
+    "title": "Movie.2160p.Remux.Diamond.HEVC-GROUP",
+    "result": {
+      "codec": "hevc",
+      "edition": "Diamond Edition",
+      "group": "GROUP",
+      "quality": "REMUX",
+      "resolution": "2160p",
+      "title": "Movie"
+    }
+  },
+  {
+    "title": "Movie.2160p.WEB-DL.Diamond.HDR10.HEVC-GROUP",
+    "result": {
+      "bit_depth": "10bit",
+      "codec": "hevc",
+      "edition": "Diamond Edition",
+      "group": "GROUP",
+      "hdr": [
+        "HDR"
+      ],
+      "quality": "WEB-DL",
+      "resolution": "2160p",
+      "title": "Movie"
+    }
+  },
+  {
+    "title": "Movie.2160p.WEB-DL.HDR10.Diamond.HEVC-GROUP",
+    "result": {
+      "bit_depth": "10bit",
+      "codec": "hevc",
+      "edition": "Diamond Edition",
+      "group": "GROUP",
+      "hdr": [
+        "HDR"
+      ],
+      "quality": "WEB-DL",
+      "resolution": "2160p",
+      "title": "Movie"
+    }
   }
 ]
