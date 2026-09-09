@@ -1146,7 +1146,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "A Clockwork Orange"
+      "title": "A Clockwork Orange",
+      "dual_audio": true
     }
   },
   {
@@ -1254,7 +1255,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Abuela"
+      "title": "Abuela",
+      "dual_audio": true
     }
   },
   {
@@ -1782,7 +1784,8 @@
       "title": "Avatar The Way of Water",
       "subtitles": [
         "en"
-      ]
+      ],
+      "dual_audio": true
     }
   },
   {
@@ -1811,7 +1814,8 @@
       "title": "Avatar The Way of Water",
       "subtitles": [
         "en"
-      ]
+      ],
+      "dual_audio": true
     }
   },
   {
@@ -2081,7 +2085,8 @@
       ],
       "dubbed": true,
       "seasons": [],
-      "title": "Berserk"
+      "title": "Berserk",
+      "dual_audio": true
     }
   },
   {
@@ -2708,7 +2713,8 @@
       "extension": "mkv",
       "seasons": [],
       "languages": [],
-      "title": "Buttobi!! CPU"
+      "title": "Buttobi!! CPU",
+      "dual_audio": true
     }
   },
   {
@@ -2801,7 +2807,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Casablanca"
+      "title": "Casablanca",
+      "dual_audio": true
     }
   },
   {
@@ -3121,7 +3128,8 @@
       "title": "Cowboy Bebop",
       "subtitles": [
         "fr"
-      ]
+      ],
+      "dual_audio": true
     }
   },
   {
@@ -3138,7 +3146,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Cowboy Bebop The Movie"
+      "title": "Cowboy Bebop The Movie",
+      "dual_audio": true
     }
   },
   {
@@ -3549,7 +3558,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Desperation"
+      "title": "Desperation",
+      "dual_audio": true
     }
   },
   {
@@ -3932,7 +3942,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Dumbo"
+      "title": "Dumbo",
+      "dual_audio": true
     }
   },
   {
@@ -4028,7 +4039,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Ecrit Dans Le Ciel"
+      "title": "Ecrit Dans Le Ciel",
+      "dual_audio": true
     }
   },
   {
@@ -4431,7 +4443,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Extraction"
+      "title": "Extraction",
+      "dual_audio": true
     }
   },
   {
@@ -4454,7 +4467,8 @@
       "network": "HBO",
       "episodes": [],
       "languages": [],
-      "title": "FLCL"
+      "title": "FLCL",
+      "dual_audio": true
     }
   },
   {
@@ -4596,7 +4610,8 @@
       "dubbed": true,
       "extension": "mkv",
       "languages": [],
-      "title": "Fallout"
+      "title": "Fallout",
+      "dual_audio": true
     }
   },
   {
@@ -4614,7 +4629,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Fame"
+      "title": "Fame",
+      "dual_audio": true
     }
   },
   {
@@ -4808,7 +4824,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Friends"
+      "title": "Friends",
+      "dual_audio": true
     }
   },
   {
@@ -5362,7 +5379,8 @@
       ],
       "dubbed": true,
       "episodes": [],
-      "title": "Game of Thrones"
+      "title": "Game of Thrones",
+      "dual_audio": true
     }
   },
   {
@@ -5736,7 +5754,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Grimm"
+      "title": "Grimm",
+      "dual_audio": true
     }
   },
   {
@@ -5950,7 +5969,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Harry Potter All Movies Collection"
+      "title": "Harry Potter All Movies Collection",
+      "dual_audio": true
     }
   },
   {
@@ -6327,7 +6347,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Inception"
+      "title": "Inception",
+      "dual_audio": true
     }
   },
   {
@@ -6944,7 +6965,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Joker"
+      "title": "Joker",
+      "dual_audio": true
     }
   },
   {
@@ -7044,7 +7066,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Jumanji The Next Level"
+      "title": "Jumanji The Next Level",
+      "dual_audio": true
     }
   },
   {
@@ -7083,7 +7106,8 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "Jurassic World Dominion"
+      "title": "Jurassic World Dominion",
+      "dual_audio": true
     }
   },
   {
@@ -7379,7 +7403,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Le Labyrinthe"
+      "title": "Le Labyrinthe",
+      "dual_audio": true
     }
   },
   {
@@ -7635,7 +7660,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Macross ~ Do You Remember Love"
+      "title": "Macross ~ Do You Remember Love",
+      "dual_audio": true
     }
   },
   {
@@ -7973,7 +7999,8 @@
       "subtitles": [
         "ko",
         "en"
-      ]
+      ],
+      "dual_audio": true
     }
   },
   {
@@ -8632,7 +8659,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Naruto"
+      "title": "Naruto",
+      "dual_audio": true
     }
   },
   {
@@ -9230,7 +9258,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "O Rei do Show"
+      "title": "O Rei do Show",
+      "dual_audio": true
     }
   },
   {
@@ -9488,7 +9517,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Oppenheimer"
+      "title": "Oppenheimer",
+      "dual_audio": true
     }
   },
   {
@@ -9576,7 +9606,8 @@
       "extension": "mkv",
       "seasons": [],
       "languages": [],
-      "title": "Outlaw Star"
+      "title": "Outlaw Star",
+      "dual_audio": true
     }
   },
   {
@@ -9944,7 +9975,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Predator"
+      "title": "Predator",
+      "dual_audio": true
     }
   },
   {
@@ -10346,7 +10378,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Sakura Wars the Movie"
+      "title": "Sakura Wars the Movie",
+      "dual_audio": true
     }
   },
   {
@@ -10830,7 +10863,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Spider-Man"
+      "title": "Spider-Man",
+      "dual_audio": true
     }
   },
   {
@@ -11344,7 +11378,8 @@
       ],
       "dubbed": true,
       "extension": "mkv",
-      "title": "Supernatural"
+      "title": "Supernatural",
+      "dual_audio": true
     }
   },
   {
@@ -12027,7 +12062,8 @@
       "dubbed": true,
       "seasons": [],
       "languages": [],
-      "title": "The Fifth Element"
+      "title": "The Fifth Element",
+      "dual_audio": true
     }
   },
   {
@@ -12266,7 +12302,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "The Karate Kid Part III"
+      "title": "The Karate Kid Part III",
+      "dual_audio": true
     }
   },
   {
@@ -12565,7 +12602,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "The Shawshank Redemption"
+      "title": "The Shawshank Redemption",
+      "dual_audio": true
     }
   },
   {
@@ -14644,7 +14682,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Western - L'homme qui n'a pas d'étoile"
+      "title": "Western - L'homme qui n'a pas d'étoile",
+      "dual_audio": true
     }
   },
   {
@@ -14951,7 +14990,8 @@
       ],
       "dubbed": true,
       "extension": "mkv",
-      "title": "Yu-Gi-Oh! ZEXAL"
+      "title": "Yu-Gi-Oh! ZEXAL",
+      "dual_audio": true
     }
   },
   {
@@ -16269,7 +16309,8 @@
       "dubbed": true,
       "group": "Anime Time",
       "seasons": [],
-      "languages": []
+      "languages": [],
+      "dual_audio": true
     }
   },
   {
@@ -16368,7 +16409,8 @@
       "site": "BEST-TORRENTS.COM",
       "network": "Amazon",
       "languages": [],
-      "title": "The Penguin"
+      "title": "The Penguin",
+      "dual_audio": true
     }
   },
   {
@@ -16573,7 +16615,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Gamers!"
+      "title": "Gamers!",
+      "dual_audio": true
     }
   },
   {
@@ -16674,7 +16717,8 @@
       "group": "DragsterPS",
       "episodes": [],
       "languages": [],
-      "title": "Yu-Gi-Oh!"
+      "title": "Yu-Gi-Oh!",
+      "dual_audio": true
     }
   },
   {
@@ -16983,7 +17027,8 @@
       "dubbed": true,
       "group": "F-D",
       "episodes": [],
-      "languages": []
+      "languages": [],
+      "dual_audio": true
     }
   },
   {
@@ -17002,7 +17047,8 @@
       "dubbed": true,
       "group": "F-D",
       "episodes": [],
-      "languages": []
+      "languages": [],
+      "dual_audio": true
     }
   },
   {
@@ -17018,7 +17064,8 @@
       "group": "F-D",
       "seasons": [],
       "languages": [],
-      "title": "Fairy Tail"
+      "title": "Fairy Tail",
+      "dual_audio": true
     }
   },
   {
@@ -17284,7 +17331,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "The Art Of The Steal"
+      "title": "The Art Of The Steal",
+      "dual_audio": true
     }
   },
   {
@@ -17348,7 +17396,8 @@
       "dubbed": true,
       "group": "IceBlue",
       "languages": [],
-      "title": "Naruto"
+      "title": "Naruto",
+      "dual_audio": true
     }
   },
   {
@@ -17394,7 +17443,8 @@
       "dubbed": true,
       "group": "JySzE",
       "episodes": [],
-      "seasons": []
+      "seasons": [],
+      "dual_audio": true
     }
   },
   {
@@ -17410,7 +17460,8 @@
       "dubbed": true,
       "group": "JySzE",
       "episodes": [],
-      "seasons": []
+      "seasons": [],
+      "dual_audio": true
     }
   },
   {
@@ -17478,7 +17529,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Tsuredure Children"
+      "title": "Tsuredure Children",
+      "dual_audio": true
     }
   },
   {
@@ -17495,7 +17547,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "takt op.Destiny"
+      "title": "takt op.Destiny",
+      "dual_audio": true
     }
   },
   {
@@ -18248,7 +18301,8 @@
       "group": "UsifRenegade",
       "seasons": [],
       "languages": [],
-      "title": "Cardcaptor Sakura"
+      "title": "Cardcaptor Sakura",
+      "dual_audio": true
     }
   },
   {
@@ -18264,7 +18318,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Cardcaptor Sakura"
+      "title": "Cardcaptor Sakura",
+      "dual_audio": true
     }
   },
   {
@@ -18368,7 +18423,8 @@
       "group": "bonkai77",
       "seasons": [],
       "languages": [],
-      "title": "RahXephon"
+      "title": "RahXephon",
+      "dual_audio": true
     }
   },
   {
@@ -18386,7 +18442,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Fate Stay Night - Unlimited Blade Works Movie"
+      "title": "Fate Stay Night - Unlimited Blade Works Movie",
+      "dual_audio": true
     }
   },
   {
@@ -19746,7 +19803,8 @@
       "title": "Bikram Yogi, Guru, Predator",
       "subtitles": [
         "en"
-      ]
+      ],
+      "dual_audio": true
     }
   },
   {
@@ -20871,6 +20929,112 @@
       "resolution": "2160p",
       "title": "Movie",
       "upscaled": true,
+      "year": 2020
+    }
+  },
+  {
+    "title": "[SubsPlease] Frieren - 01 (1080p) [Dual-Audio]",
+    "result": {
+      "dual_audio": true,
+      "dubbed": true,
+      "episodes": [
+        1
+      ],
+      "group": "SubsPlease",
+      "resolution": "1080p",
+      "title": "Frieren"
+    }
+  },
+  {
+    "title": "Frieren.S01E01.DUAL.1080p.WEB.H264-GROUP",
+    "result": {
+      "codec": "avc",
+      "dual_audio": true,
+      "dubbed": true,
+      "episodes": [
+        1
+      ],
+      "group": "GROUP",
+      "quality": "WEB",
+      "resolution": "1080p",
+      "scene": true,
+      "seasons": [
+        1
+      ],
+      "title": "Frieren"
+    }
+  },
+  {
+    "title": "Movie.2020.MULTi.1080p.BluRay.x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "dual_audio": true,
+      "dubbed": true,
+      "group": "GROUP",
+      "quality": "BluRay",
+      "resolution": "1080p",
+      "title": "Movie",
+      "year": 2020
+    }
+  },
+  {
+    "title": "Movie.2020.MULTi-Subs.1080p.BluRay.x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "dual_audio": false,
+      "group": "GROUP",
+      "quality": "BluRay",
+      "resolution": "1080p",
+      "subbed": true,
+      "title": "Movie",
+      "year": 2020
+    }
+  },
+  {
+    "title": "Movie.2020.Dual.Audio.Hindi.English.720p-GROUP",
+    "result": {
+      "dual_audio": true,
+      "dubbed": true,
+      "group": "GROUP",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "resolution": "720p",
+      "title": "Movie",
+      "year": 2020
+    }
+  },
+  {
+    "title": "Anime.S01E01.JA.EN.1080p.WEB-DL.x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "dual_audio": false,
+      "episodes": [
+        1
+      ],
+      "group": "GROUP",
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "quality": "WEB-DL",
+      "resolution": "1080p",
+      "seasons": [
+        1
+      ],
+      "title": "Anime"
+    }
+  },
+  {
+    "title": "Movie.2020.1080p.BluRay.x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "dual_audio": false,
+      "group": "GROUP",
+      "quality": "BluRay",
+      "resolution": "1080p",
+      "title": "Movie",
       "year": 2020
     }
   },

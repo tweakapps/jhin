@@ -86,6 +86,7 @@ var coreFields = map[string]Type{
 	"upscaled":    Bool,
 	"threeD":      Bool,
 	"dubbed":      Bool,
+	"dualAudio":   Bool,
 	"subbed":      Bool,
 	"hardcoded":   Bool,
 	"documentary": Bool,
@@ -217,6 +218,8 @@ func (f *ResultFacts) Lookup(path string) (Value, bool) {
 		return BoolOf(r.ThreeD), true
 	case "dubbed":
 		return BoolOf(r.Dubbed), true
+	case "dualAudio":
+		return BoolOf(r.DualAudio), true
 	case "subbed":
 		return BoolOf(r.Subbed), true
 	case "hardcoded":
