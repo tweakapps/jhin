@@ -1036,6 +1036,14 @@ var handlers = []handler{
 		Remove:       true,
 		KeepMatching: true,
 	},
+	// codec: \bVC[-. ]?1\b
+	{
+		Field:        "codec",
+		Pattern:      regexp.MustCompile(`(?i)\bVC[-. ]?1\b`),
+		Transform:    toValue(`vc1`),
+		Remove:       true,
+		KeepMatching: true,
+	},
 	// codec: \b(?:mpe?g\d*)\b
 	{
 		Field:        "codec",
@@ -1098,6 +1106,31 @@ var handlers = []handler{
 		Field:        "channels",
 		Pattern:      regexp.MustCompile(`(?i)\bmono\b`),
 		Transform:    toValueSet(`mono`),
+		KeepMatching: true,
+	},
+	// audio: \b(?!.+HR)DTS[:\-.]X\b (DTS:X with an explicit separator; must
+	// run before the combined DTS-HD Ma/DTS.?X handler below so a genuine
+	// DTS:X gets its own value instead of DTS Lossless. Titles that spell it
+	// without a separator, e.g. "DTSEX", still fall through to that handler
+	// unchanged so existing golden expectations are not disturbed.)
+	{
+		Gate:  gate("dts"),
+		Field: "audio",
+		Process: scanValid("audio", regexp.MustCompile(`(?i)\bDTS[:\-.]X\b`), func(title string, idxs []int) bool {
+			return !audioHrAfterRegex.MatchString(title[idxs[0]:])
+		}, true, false, true),
+		Transform:    toValueSet(`DTS:X`),
+		KeepMatching: true,
+		Remove:       true,
+	},
+	// audio: \bDTS[:\-. ]ES\b (DTS-ES; must run before the language block so
+	// the trailing "ES" is not read as Spanish, and before the generic lossy
+	// DTS handler below so it gets its own value)
+	{
+		Field:        "audio",
+		Pattern:      regexp.MustCompile(`(?i)\bDTS[:\-. ]ES\b`),
+		Transform:    toValueSet(`DTS-ES`),
+		Remove:       true,
 		KeepMatching: true,
 	},
 	// audio: \b(?!.+HR)(DTS.?HD.?Ma(ster)?|DTS.?X)\b

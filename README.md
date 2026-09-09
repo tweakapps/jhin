@@ -268,7 +268,7 @@ fuzzing.
 
 ## Accuracy
 
-`parser/testdata/golden.json` pins the expected output for 1,160 real-world
+`parser/testdata/golden.json` pins the expected output for 1,170 real-world
 release names across every field. Any behavioral regression fails CI.
 
 The corpus was seeded from the Python PTT 1.8.5 parser. jhin owns it and
@@ -319,11 +319,11 @@ Field semantics follow [PTT](https://github.com/dreulavelle/PTT) 1.8.5
 (commit `88429bb`) except for the divergences listed under Accuracy.
 
 - **Adult** (`bool`): adult-content detection (keyword list)
-- **Audio** (`[]string`): `DTS Lossless`, `DTS Lossy`, `Atmos`, `TrueHD`, `FLAC`, `Dolby Digital Plus`, `Dolby Digital`, `AAC`, `PCM`, `OPUS`, `MP3`, `HQ Clean Audio`
+- **Audio** (`[]string`): `DTS Lossless`, `DTS Lossy`, `DTS:X`, `DTS-ES`, `Atmos`, `TrueHD`, `FLAC`, `Dolby Digital Plus`, `Dolby Digital`, `AAC`, `PCM`, `OPUS`, `MP3`, `HQ Clean Audio`
 - **BitDepth** (`string`): `8bit`, `10bit`, `12bit`
 - **Bitrate** (`string`): e.g. `448kbps`
 - **Channels** (`[]string`): `2.0`, `5.1`, `7.1`, `stereo`, `mono`
-- **Codec** (`string`): `avc`, `hevc`, `av1`, `xvid`, `mpeg` (normalized: `AVC`, `HEVC`, ...)
+- **Codec** (`string`): `avc`, `hevc`, `av1`, `xvid`, `mpeg`, `vc1` (normalized: `AVC`, `HEVC`, ...)
 - **Commentary** / **Complete** / **Convert** / **Documentary** / **Dubbed** (`bool`)
 - **Container** (`string`): `mkv`, `avi`, `mp4`, ...
 - **Country** (`string`): `US`, `UK`, `AU`, `NZ`, `CA`
