@@ -20,6 +20,7 @@ var valueSetFieldMap = map[string]struct{}{
 	"extras":    {},
 	"hdr":       {},
 	"languages": {},
+	"subtitles": {},
 }
 
 var handlers = []handler{
@@ -1234,6 +1235,8 @@ var handlers = []handler{
 		Pattern:   regexp.MustCompile(`(?i)\b(?:(?:en|eng|e|swe|dan|fin|nor|kor|pl|slo|ro|arab)sub(?:s|bed)?|sub(?:french|eng|ita|esp|spa|ger|deu|pt|pl|ro|nl|swe|nor|dan|fin|tur|rus|hun|cze|gre)|vost(?:fr|a|en)?)\b`),
 		Transform: toBoolean(),
 	},
+	// subtitles: subset of Languages for subtitle-specific evidence
+	customSubtitleLanguages,
 	// languages: \b(temporadas?|completa)\b
 	{
 		Field:        "languages",
