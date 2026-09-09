@@ -55,6 +55,7 @@ const (
 	AttrDolbyVision Attr = "dolby_vision"
 	AttrHDR         Attr = "hdr"
 	AttrHDR10Plus   Attr = "hdr10plus"
+	AttrHLG         Attr = "hlg"
 	AttrSDR         Attr = "sdr"
 	Attr10Bit       Attr = "10bit"
 
@@ -145,6 +146,7 @@ var hdrAttrs = map[string]Attr{
 	"DV":     AttrDolbyVision,
 	"HDR":    AttrHDR,
 	"HDR10+": AttrHDR10Plus,
+	"HLG":    AttrHLG,
 	"SDR":    AttrSDR,
 }
 

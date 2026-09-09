@@ -236,6 +236,7 @@ var DefaultPolicies = map[Attr]Policy{
 	AttrDolbyVision: {Fetch: true, Rank: 3000},
 	AttrHDR10Plus:   {Fetch: true, Rank: 2100},
 	AttrHDR:         {Fetch: true, Rank: 2000},
+	AttrHLG:         {Fetch: true, Rank: 1500},
 	AttrSDR:         {Fetch: true, Rank: 0},
 	Attr10Bit:       {Fetch: true, Rank: 100},
 

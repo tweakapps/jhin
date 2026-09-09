@@ -143,14 +143,14 @@ whole "block DV-only releases" rule.
 
 `traits` is the list of attributes jhin's own scoring detected, under the same
 keys the policy map uses — one detection shared by baseline scoring and rules.
-All 66:
+All 67:
 
 ```
 Sources:   bdrip bluray brrip cam dvd dvdrip hdrip hdtv pdtv ppvrip r5 remux
            satrip screener telecine telesync tvrip uhdrip vhs vhsrip web
            webdl webdlrip webmux webrip
 Codecs:    av1 avc hevc mpeg xvid
-Range:     dolby_vision hdr hdr10plus sdr 10bit
+Range:     dolby_vision hdr hdr10plus hlg sdr 10bit
 Audio:     aac atmos clean_audio dolby_digital dolby_digital_plus
            dts_lossless dts_lossy flac mp3 opus pcm truehd
 Channels:  mono stereo surround

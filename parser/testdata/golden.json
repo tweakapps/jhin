@@ -20689,6 +20689,88 @@
     }
   },
   {
+    "title": "Planet.Earth.II.2016.S01E01.2160p.BluRay.HLG.HEVC-GROUP",
+    "result": {
+      "resolution": "2160p",
+      "year": 2016,
+      "quality": "BluRay",
+      "hdr": [
+        "HLG"
+      ],
+      "codec": "hevc",
+      "group": "GROUP",
+      "episodes": [
+        1
+      ],
+      "seasons": [
+        1
+      ],
+      "languages": [],
+      "title": "Planet Earth II"
+    }
+  },
+  {
+    "title": "Blue.Planet.II.S01.2160p.UHD.BluRay.HLG.DTS-HD.MA.5.1.x265-GROUP",
+    "result": {
+      "resolution": "2160p",
+      "quality": "BluRay",
+      "hdr": [
+        "HLG"
+      ],
+      "codec": "hevc",
+      "channels": [
+        "5.1"
+      ],
+      "audio": [
+        "DTS Lossless"
+      ],
+      "group": "GROUP",
+      "episodes": [],
+      "seasons": [
+        1
+      ],
+      "languages": [],
+      "title": "Blue Planet II"
+    }
+  },
+  {
+    "title": "Movie.2024.2160p.WEB-DL.DV.HDR10+.HEVC-GROUP",
+    "result": {
+      "resolution": "2160p",
+      "year": 2024,
+      "quality": "WEB-DL",
+      "bit_depth": "10bit",
+      "hdr": [
+        "DV",
+        "HDR10+"
+      ],
+      "codec": "hevc",
+      "group": "GROUP",
+      "episodes": [],
+      "seasons": [],
+      "languages": [],
+      "title": "Movie"
+    }
+  },
+  {
+    "title": "Movie.2024.2160p.WEB-DL.DV.HLG.HEVC-GROUP",
+    "result": {
+      "resolution": "2160p",
+      "year": 2024,
+      "quality": "WEB-DL",
+      "hdr": [
+        "DV",
+        "HLG"
+      ],
+      "codec": "hevc",
+      "group": "GROUP",
+      "episodes": [],
+      "seasons": [],
+      "languages": [],
+      "title": "Movie"
+    }
+  },
+  {
     "title": "Movie.1080p.WEB-DL.Diamond.x264-GROUP",
     "result": {
       "codec": "avc",

@@ -966,6 +966,14 @@ var handlers = []handler{
 		Remove:       true,
 		KeepMatching: true,
 	},
+	// hdr: \bHLG\b
+	{
+		Field:        "hdr",
+		Pattern:      regexp.MustCompile(`(?i)\bHLG\b`),
+		Transform:    toValueSet(`HLG`),
+		Remove:       true,
+		KeepMatching: true,
+	},
 	// hdr: \bSDR\b
 	{
 		Field:        "hdr",
