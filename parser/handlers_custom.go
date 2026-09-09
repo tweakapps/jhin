@@ -61,6 +61,58 @@ var customAdult = handler{
 	},
 }
 
+var dualAudioMarkerRegex = regexp.MustCompile(`(?i)\bdual[ .-]?(?:audio|line)\b|\bdual\b`)
+var multiAudioMarkerRegex = regexp.MustCompile(`(?i)\bmulti[ .-]?audio\b|\bmulti\b`)
+var multiSubsAfterRegex = regexp.MustCompile(`(?i)^[ .-]?subs?\b`)
+
+// Dual audio: explicit dual/multi-audio marker or 2+ spoken languages
+var customDualAudioMarker = handler{
+	Field: "dualAudio",
+	Process: func(title string, m *parseMeta, result map[string]*parseMeta) *parseMeta {
+		if v, ok := m.value.(bool); ok && v {
+			return m
+		}
+		if dualAudioMarkerRegex.MatchString(title) {
+			m.value = true
+			return m
+		}
+		if idxs := multiAudioMarkerRegex.FindStringIndex(title); idxs != nil {
+			if !multiSubsAfterRegex.MatchString(title[idxs[1]:]) {
+				m.value = true
+			}
+		}
+		return m
+	},
+}
+
+// def is_dual_audio (languages fallback): no "dual"/"multi" token survived,
+// but the release is dubbed, carries no subtitle marker, and names 2+ spoken
+// languages (e.g. "Hindi.English", "JA.EN") — two audio tracks named by
+// language instead of by a dual/multi token.
+var customDualAudioFromLanguages = handler{
+	Field: "dualAudio",
+	Process: func(title string, m *parseMeta, result map[string]*parseMeta) *parseMeta {
+		if v, ok := m.value.(bool); ok && v {
+			return m
+		}
+		dubbed, hasDubbed := result["dubbed"]
+		if !hasDubbed || dubbed.value != true {
+			return m
+		}
+		if subbed, hasSubbed := result["subbed"]; hasSubbed && subbed.value == true {
+			return m
+		}
+		langs, hasLangs := result["languages"]
+		if !hasLangs {
+			return m
+		}
+		if vs, ok := langs.value.(*valueSet[any]); ok && len(vs.values) >= 2 {
+			m.value = true
+		}
+		return m
+	},
+}
+
 // ---------------------------------------------------------------------------
 // Transformer helpers used by the generated table
 // ---------------------------------------------------------------------------

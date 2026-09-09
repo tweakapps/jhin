@@ -2961,6 +2961,8 @@ var handlers = []handler{
 		Remove:       true,
 		KeepMatching: true,
 	},
+	// dual_audio: explicit dual/multi-audio marker
+	customDualAudioMarker,
 	// dubbed: [\[(\s]?\bmulti(?:ple)?[ .-]*(?:lang(?:uages?)?|audio|VF2)\b\][\[(\s]?
 	{
 		Field:        "dubbed",
@@ -3030,6 +3032,8 @@ var handlers = []handler{
 		Transform: toBoolean(),
 		Remove:    true,
 	},
+	// dual_audio: languages fallback (2+ langs, dubbed, no subs)
+	customDualAudioFromLanguages,
 	// group: ['custom:handle_group']
 	customHandleGroup,
 	// 3d: (?<=\b[12]\d{3}\b).*\b(3d|sbs|half[ .-]ou|half[ .-]sbs)\b
