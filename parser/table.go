@@ -1078,6 +1078,14 @@ var handlers = []handler{
 		Remove:       true,
 		KeepMatching: true,
 	},
+	// channels: \b6[\.\- ]1(.?ch(annel)?)?\b
+	{
+		Field:        "channels",
+		Pattern:      regexp.MustCompile(`(?i)\b6[\.\- ]1(.?ch(annel)?)?\b`),
+		Transform:    toValueSet(`6.1`),
+		Remove:       true,
+		KeepMatching: true,
+	},
 	// channels: \+?2[\.\s]0(?:x[2-4])?\b
 	{
 		Field:        "channels",

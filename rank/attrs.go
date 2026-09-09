@@ -171,6 +171,7 @@ var audioAttrs = map[string]Attr{
 
 var channelAttrs = map[string]Attr{
 	"5.1":    AttrSurround,
+	"6.1":    AttrSurround,
 	"7.1":    AttrSurround,
 	"2.0":    AttrStereo,
 	"stereo": AttrStereo,

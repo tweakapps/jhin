@@ -20838,5 +20838,38 @@
       "title": "Movie",
       "year": 2019
     }
+  },
+  {
+    "title": "Movie.2019.1080p.BluRay.TrueHD.6.1.x264-GROUP",
+    "result": {
+      "audio": [
+        "TrueHD"
+      ],
+      "channels": [
+        "6.1"
+      ],
+      "codec": "avc",
+      "group": "GROUP",
+      "quality": "BluRay",
+      "resolution": "1080p",
+      "title": "Movie",
+      "year": 2019
+    }
+  },
+  {
+    "title": "Movie.2019.720p.WEBRip.AC3.6.1-GROUP",
+    "result": {
+      "audio": [
+        "Dolby Digital"
+      ],
+      "channels": [
+        "6.1"
+      ],
+      "group": "GROUP",
+      "quality": "WEBRip",
+      "resolution": "720p",
+      "title": "Movie",
+      "year": 2019
+    }
   }
 ]
