@@ -20,6 +20,7 @@ var valueSetFieldMap = map[string]struct{}{
 	"extras":    {},
 	"hdr":       {},
 	"languages": {},
+	"subtitles": {},
 }
 
 var handlers = []handler{
@@ -546,12 +547,19 @@ var handlers = []handler{
 		Transform: toValue(`IMAX`),
 		Remove:    true,
 	},
-	// edition: \b\.Diamond\.\b
+	// edition: \b\.(Diamond)\.\b
+	// "Diamond" alone is a common word in real titles (Blood Diamond, Ace
+	// of the Diamond), so the dots stay in the pattern to require the
+	// scene-tag separator context. MatchGroup restricts removal to the
+	// word itself so the flanking separators aren't consumed and fused
+	// into neighboring tokens (see episodes handler above for the same
+	// technique).
 	{
-		Field:     "edition",
-		Pattern:   regexp.MustCompile(`(?i)\b\.Diamond\.\b`),
-		Transform: toValue(`Diamond Edition`),
-		Remove:    true,
+		Field:      "edition",
+		Pattern:    regexp.MustCompile(`(?i)\b\.(Diamond)\.\b`),
+		MatchGroup: 1,
+		Transform:  toValue(`Diamond Edition`),
+		Remove:     true,
 	},
 	// edition: \bRemaster(?:ed)?\b
 	{
@@ -959,6 +967,14 @@ var handlers = []handler{
 		Remove:       true,
 		KeepMatching: true,
 	},
+	// hdr: \bHLG\b
+	{
+		Field:        "hdr",
+		Pattern:      regexp.MustCompile(`(?i)\bHLG\b`),
+		Transform:    toValueSet(`HLG`),
+		Remove:       true,
+		KeepMatching: true,
+	},
 	// hdr: \bSDR\b
 	{
 		Field:        "hdr",
@@ -1289,6 +1305,8 @@ var handlers = []handler{
 		Pattern:   regexp.MustCompile(`(?i)\b(?:(?:en|eng|e|swe|dan|fin|nor|kor|pl|slo|ro|arab)sub(?:s|bed)?|sub(?:french|eng|ita|esp|spa|ger|deu|pt|pl|ro|nl|swe|nor|dan|fin|tur|rus|hun|cze|gre)|vost(?:fr|a|en)?)\b`),
 		Transform: toBoolean(),
 	},
+	// subtitles: subset of Languages for subtitle-specific evidence
+	customSubtitleLanguages,
 	// languages: \b(temporadas?|completa)\b
 	{
 		Field:        "languages",
@@ -3016,6 +3034,8 @@ var handlers = []handler{
 		Remove:       true,
 		KeepMatching: true,
 	},
+	// dual_audio: explicit dual/multi-audio marker
+	customDualAudioMarker,
 	// dubbed: [\[(\s]?\bmulti(?:ple)?[ .-]*(?:lang(?:uages?)?|audio|VF2)\b\][\[(\s]?
 	{
 		Field:        "dubbed",
@@ -3085,6 +3105,8 @@ var handlers = []handler{
 		Transform: toBoolean(),
 		Remove:    true,
 	},
+	// dual_audio: languages fallback (2+ langs, dubbed, no subs)
+	customDualAudioFromLanguages,
 	// group: ['custom:handle_group']
 	customHandleGroup,
 	// 3d: (?<=\b[12]\d{3}\b).*\b(3d|sbs|half[ .-]ou|half[ .-]sbs)\b
