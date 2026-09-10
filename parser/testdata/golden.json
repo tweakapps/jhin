@@ -20968,6 +20968,23 @@
     }
   },
   {
+    "title": "iT.Chapter.Two.2019.1080p.WEB-DL.DDP5.1.H.264-NTb",
+    "result": {
+      "audio": [
+        "Dolby Digital Plus"
+      ],
+      "channels": [
+        "5.1"
+      ],
+      "codec": "avc",
+      "group": "NTb",
+      "quality": "WEB-DL",
+      "resolution": "1080p",
+      "title": "iT Chapter Two",
+      "year": 2019
+    }
+  },
+  {
     "title": "Seven.Samurai.1954.Criterion.Collection.1080p.BluRay.x264-GROUP",
     "result": {
       "codec": "avc",

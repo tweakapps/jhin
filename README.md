@@ -268,7 +268,7 @@ fuzzing.
 
 ## Accuracy
 
-`parser/testdata/golden.json` pins the expected output for 1,160 real-world
+`parser/testdata/golden.json` pins the expected output for 1,183 real-world
 release names across every field. Any behavioral regression fails CI.
 
 The corpus was seeded from the Python PTT 1.8.5 parser. jhin owns it and
@@ -285,6 +285,9 @@ pinned expectations, listed here:
   Paramount) that PTT's own table doesn't map, so it left them unset.
 - Bare `DC` after the year is Director's Cut (`Color.Of.Night.Unrated.DC...`),
   another tag missing from PTT's table.
+- Bare `iT` is the iTunes platform tag in source position
+  (`...1080p.iT.WEB-DL...`), but never in first position, where it is the
+  title's own first word (`iT.Chapter.Two`).
 
 ## How it compares
 

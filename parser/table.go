@@ -3215,11 +3215,15 @@ var handlers = []handler{
 		Remove:    true,
 	},
 	// network: \biT\b
+	// Case-sensitive, and skipped in first position: "iT" is a real platform
+	// tag in source position ("...1080p.iT.WEB-DL..."), but at the head of a
+	// title it is the title's own first word (iT.Chapter.Two).
 	{
-		Field:     "network",
-		Pattern:   regexp.MustCompile(`\biT\b`),
-		Transform: toValue(`iTunes`),
-		Remove:    true,
+		Field:       "network",
+		Pattern:     regexp.MustCompile(`\biT\b`),
+		Transform:   toValue(`iTunes`),
+		Remove:      true,
+		SkipIfFirst: true,
 	},
 	// network: \bHULU\b
 	{
