@@ -268,7 +268,7 @@ fuzzing.
 
 ## Accuracy
 
-`parser/testdata/golden.json` pins the expected output for 1,183 real-world
+`parser/testdata/golden.json` pins the expected output for 1,211 real-world
 release names across every field. Any behavioral regression fails CI.
 
 The corpus was seeded from the Python PTT 1.8.5 parser. jhin owns it and
@@ -331,19 +331,21 @@ Field semantics follow [PTT](https://github.com/dreulavelle/PTT) 1.8.5
 - **Bitrate** (`string`): e.g. `448kbps`
 - **Channels** (`[]string`): `2.0`, `5.1`, `7.1`, `stereo`, `mono`
 - **Codec** (`string`): `avc`, `hevc`, `av1`, `xvid`, `mpeg` (normalized: `AVC`, `HEVC`, ...)
-- **Commentary** / **Complete** / **Convert** / **Documentary** / **Dubbed** (`bool`)
+- **Commentary** / **Complete** / **Convert** / **Documentary** (`bool`)
 - **Container** (`string`): `mkv`, `avi`, `mp4`, ...
 - **Country** (`string`): `US`, `UK`, `AU`, `NZ`, `CA`
 - **Date** (`string`): `YYYY-MM-DD`
+- **DualAudio** (`bool`): an explicit dual/multi-audio marker (`Dual Audio`, bare `DUAL`, `Multi-Audio`, bare `MULTi` when it isn't a subs marker) or 2+ languages on an already-dubbed, non-subbed release
+- **Dubbed** (`bool`)
 - **Edition** (`string`): `Anniversary Edition`, `Director's Cut`, `Extended Edition`, `IMAX`, ...
 - **EpisodeCode** (`string`): 8-char CRC code
 - **Episodes** / **Seasons** / **Volumes** (`[]int`)
 - **Extension** (`string`): file extension
 - **Extras** (`[]string`): `Featurette`, `Sample`, `Trailer`, `NCED`, `NCOP`, ...
 - **Group** (`string`): release group
-- **HDR** (`[]string`): `DV`, `HDR10+`, `HDR`, `SDR`
+- **HDR** (`[]string`): `DV`, `HDR10+`, `HDR`, `HLG`, `SDR`
 - **Hardcoded** (`bool`)
-- **Languages** (`[]string`): ISO 639-1 codes (`en`, `ja`, `zh`, ...) plus `multi subs`, `multi audio`, `dual audio`
+- **Languages** (`[]string`): ISO 639-1 codes (`en`, `ja`, `zh`, ...); a `multi subs`/`multi audio`/`dual audio` release sets `Dubbed`/`Subbed`/`DualAudio` instead, often with `Languages` left empty
 - **Network** (`string`): `Netflix`, `Amazon`, `HBO`, ...
 - **PPV** / **Proper** / **Remastered** / **Repack** / **Retail** (`bool`)
 - **Quality** (`string`): `WEB`, `WEB-DL`, `WEBRip`, `BluRay`, `BluRay REMUX`, `HDTV`, `CAM`, `TeleSync`, `DVDRip`, ...
@@ -353,6 +355,7 @@ Field semantics follow [PTT](https://github.com/dreulavelle/PTT) 1.8.5
 - **Site** (`string`): source website
 - **Size** (`string`): e.g. `2.3GB`
 - **Subbed** (`bool`): subtitles present, from a sub token (`SUBS`, `Multi-Subs`, `SUBBED`) or a language fused to one (`ENGSUB`, `ESub`, `VOSTFR`, `SWESUB`)
+- **Subtitles** (`[]string`, jhin, not PTT, [#38](https://github.com/dreulavelle/jhin/issues/38)): the subset of `Languages` that is specifically subtitle evidence — a language fused to (`ENGSUB`, `KORSUB`) or immediately adjacent to (`Eng-Sub`, `SUB.ITA`, `[Subs.EN]`) a sub token. Additive only: matched languages stay in `Languages` too, and a sub token with no identifiable language (`Multi-Subs`) leaves `Subtitles` empty while still setting `Subbed`.
 - **ThreeD** (`bool`): 3D release
 - **Title** (`string`): cleaned title
 - **Torrent** / **Trash** / **Uncensored** / **Unrated** / **Upscaled** (`bool`)

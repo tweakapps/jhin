@@ -56,6 +56,7 @@ const (
 	AttrDolbyVision Attr = "dolby_vision"
 	AttrHDR         Attr = "hdr"
 	AttrHDR10Plus   Attr = "hdr10plus"
+	AttrHLG         Attr = "hlg"
 	AttrSDR         Attr = "sdr"
 	Attr10Bit       Attr = "10bit"
 
@@ -83,6 +84,7 @@ const (
 	AttrConverted   Attr = "converted"
 	AttrDocumentary Attr = "documentary"
 	AttrDubbed      Attr = "dubbed"
+	AttrDualAudio   Attr = "dualaudio"
 	AttrEdition     Attr = "edition"
 	AttrHardcoded   Attr = "hardcoded"
 	AttrNetwork     Attr = "network"
@@ -147,6 +149,7 @@ var hdrAttrs = map[string]Attr{
 	"DV":     AttrDolbyVision,
 	"HDR":    AttrHDR,
 	"HDR10+": AttrHDR10Plus,
+	"HLG":    AttrHLG,
 	"SDR":    AttrSDR,
 }
 
@@ -219,6 +222,7 @@ func attributes(d *parser.Result) []Attr {
 	flag(d.Convert, AttrConverted)
 	flag(d.Documentary, AttrDocumentary)
 	flag(d.Dubbed, AttrDubbed)
+	flag(d.DualAudio, AttrDualAudio)
 	flag(d.Edition != "", AttrEdition)
 	flag(d.Hardcoded, AttrHardcoded)
 	flag(d.Network != "", AttrNetwork)

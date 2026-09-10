@@ -567,7 +567,10 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Saturno Contro"
+      "title": "Saturno Contro",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -650,7 +653,10 @@
       ],
       "subbed": true,
       "episodes": [],
-      "title": "22-7"
+      "title": "22-7",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -1140,7 +1146,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "A Clockwork Orange"
+      "title": "A Clockwork Orange",
+      "dual_audio": true
     }
   },
   {
@@ -1158,7 +1165,12 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "A Good Day To Die Hard"
+      "title": "A Good Day To Die Hard",
+      "subtitles": [
+        "sv",
+        "da",
+        "fi"
+      ]
     }
   },
   {
@@ -1243,7 +1255,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Abuela"
+      "title": "Abuela",
+      "dual_audio": true
     }
   },
   {
@@ -1466,7 +1479,10 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "American Pie"
+      "title": "American Pie",
+      "subtitles": [
+        "sv"
+      ]
     }
   },
   {
@@ -1719,7 +1735,10 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Atonement"
+      "title": "Atonement",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -1762,7 +1781,11 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "Avatar The Way of Water"
+      "title": "Avatar The Way of Water",
+      "subtitles": [
+        "en"
+      ],
+      "dual_audio": true
     }
   },
   {
@@ -1788,7 +1811,11 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "Avatar The Way of Water"
+      "title": "Avatar The Way of Water",
+      "subtitles": [
+        "en"
+      ],
+      "dual_audio": true
     }
   },
   {
@@ -2059,7 +2086,8 @@
       ],
       "dubbed": true,
       "seasons": [],
-      "title": "Berserk"
+      "title": "Berserk",
+      "dual_audio": true
     }
   },
   {
@@ -2555,7 +2583,10 @@
         "it"
       ],
       "subbed": true,
-      "title": "Breaking Bad"
+      "title": "Breaking Bad",
+      "subtitles": [
+        "es"
+      ]
     }
   },
   {
@@ -2573,7 +2604,10 @@
       "subbed": true,
       "extension": "mp4",
       "episodes": [],
-      "title": "Bron"
+      "title": "Bron",
+      "subtitles": [
+        "sv"
+      ]
     }
   },
   {
@@ -2680,7 +2714,8 @@
       "extension": "mkv",
       "seasons": [],
       "languages": [],
-      "title": "Buttobi!! CPU"
+      "title": "Buttobi!! CPU",
+      "dual_audio": true
     }
   },
   {
@@ -2773,7 +2808,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Casablanca"
+      "title": "Casablanca",
+      "dual_audio": true
     }
   },
   {
@@ -2987,7 +3023,10 @@
       "episodes": [],
       "seasons": [],
       "title": "Color Of Night",
-      "edition": "Directors Cut"
+      "edition": "Directors Cut",
+      "subtitles": [
+        "fr"
+      ]
     }
   },
   {
@@ -3003,7 +3042,10 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Comme une Image (Look at Me)"
+      "title": "Comme une Image (Look at Me)",
+      "subtitles": [
+        "fr"
+      ]
     }
   },
   {
@@ -3085,7 +3127,11 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Cowboy Bebop"
+      "title": "Cowboy Bebop",
+      "subtitles": [
+        "fr"
+      ],
+      "dual_audio": true
     }
   },
   {
@@ -3102,7 +3148,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Cowboy Bebop The Movie"
+      "title": "Cowboy Bebop The Movie",
+      "dual_audio": true
     }
   },
   {
@@ -3513,7 +3560,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Desperation"
+      "title": "Desperation",
+      "dual_audio": true
     }
   },
   {
@@ -3564,7 +3612,10 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Dilbert"
+      "title": "Dilbert",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -3641,7 +3692,10 @@
       ],
       "episodes": [],
       "seasons": [],
-      "title": "Divorzio allitaliana"
+      "title": "Divorzio allitaliana",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -3890,7 +3944,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Dumbo"
+      "title": "Dumbo",
+      "dual_audio": true
     }
   },
   {
@@ -3986,7 +4041,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Ecrit Dans Le Ciel"
+      "title": "Ecrit Dans Le Ciel",
+      "dual_audio": true
     }
   },
   {
@@ -4389,7 +4445,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Extraction"
+      "title": "Extraction",
+      "dual_audio": true
     }
   },
   {
@@ -4412,7 +4469,8 @@
       "network": "HBO",
       "episodes": [],
       "languages": [],
-      "title": "FLCL"
+      "title": "FLCL",
+      "dual_audio": true
     }
   },
   {
@@ -4554,7 +4612,8 @@
       "dubbed": true,
       "extension": "mkv",
       "languages": [],
-      "title": "Fallout"
+      "title": "Fallout",
+      "dual_audio": true
     }
   },
   {
@@ -4572,7 +4631,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Fame"
+      "title": "Fame",
+      "dual_audio": true
     }
   },
   {
@@ -4766,7 +4826,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Friends"
+      "title": "Friends",
+      "dual_audio": true
     }
   },
   {
@@ -4974,7 +5035,10 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Furiosa - A Mad Max Saga"
+      "title": "Furiosa - A Mad Max Saga",
+      "subtitles": [
+        "it"
+      ]
     }
   },
   {
@@ -5124,7 +5188,10 @@
       ],
       "subbed": true,
       "episodes": [],
-      "title": "Game Of Thrones"
+      "title": "Game Of Thrones",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -5314,7 +5381,8 @@
       ],
       "dubbed": true,
       "episodes": [],
-      "title": "Game of Thrones"
+      "title": "Game of Thrones",
+      "dual_audio": true
     }
   },
   {
@@ -5378,7 +5446,10 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Geminis"
+      "title": "Geminis",
+      "subtitles": [
+        "pt"
+      ]
     }
   },
   {
@@ -5685,7 +5756,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Grimm"
+      "title": "Grimm",
+      "dual_audio": true
     }
   },
   {
@@ -5814,7 +5886,10 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "Guilty"
+      "title": "Guilty",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -5896,7 +5971,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Harry Potter All Movies Collection"
+      "title": "Harry Potter All Movies Collection",
+      "dual_audio": true
     }
   },
   {
@@ -6222,7 +6298,10 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Identity Thief"
+      "title": "Identity Thief",
+      "subtitles": [
+        "fr"
+      ]
     }
   },
   {
@@ -6270,7 +6349,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Inception"
+      "title": "Inception",
+      "dual_audio": true
     }
   },
   {
@@ -6667,7 +6747,10 @@
       "site": "Inuyasha TV",
       "episodes": [],
       "seasons": [],
-      "title": "Finale++Film+CD+Ma"
+      "title": "Finale++Film+CD+Ma",
+      "subtitles": [
+        "zh"
+      ]
     }
   },
   {
@@ -6884,7 +6967,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Joker"
+      "title": "Joker",
+      "dual_audio": true
     }
   },
   {
@@ -6984,7 +7068,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Jumanji The Next Level"
+      "title": "Jumanji The Next Level",
+      "dual_audio": true
     }
   },
   {
@@ -7023,7 +7108,8 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "Jurassic World Dominion"
+      "title": "Jurassic World Dominion",
+      "dual_audio": true
     }
   },
   {
@@ -7319,7 +7405,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Le Labyrinthe"
+      "title": "Le Labyrinthe",
+      "dual_audio": true
     }
   },
   {
@@ -7575,7 +7662,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Macross ~ Do You Remember Love"
+      "title": "Macross ~ Do You Remember Love",
+      "dual_audio": true
     }
   },
   {
@@ -7909,7 +7997,12 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Men in Black International"
+      "title": "Men in Black International",
+      "subtitles": [
+        "ko",
+        "en"
+      ],
+      "dual_audio": true
     }
   },
   {
@@ -7972,7 +8065,10 @@
       "network": "Netflix",
       "episodes": [],
       "seasons": [],
-      "title": "Miami Bici"
+      "title": "Miami Bici",
+      "subtitles": [
+        "ro"
+      ]
     }
   },
   {
@@ -8055,7 +8151,10 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Mission Impossible"
+      "title": "Mission Impossible",
+      "subtitles": [
+        "sv"
+      ]
     }
   },
   {
@@ -8562,7 +8661,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Naruto"
+      "title": "Naruto",
+      "dual_audio": true
     }
   },
   {
@@ -9160,7 +9260,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "O Rei do Show"
+      "title": "O Rei do Show",
+      "dual_audio": true
     }
   },
   {
@@ -9266,7 +9367,10 @@
         "fr"
       ],
       "subbed": true,
-      "title": "One Piece"
+      "title": "One Piece",
+      "subtitles": [
+        "fr"
+      ]
     }
   },
   {
@@ -9325,7 +9429,10 @@
         "en"
       ],
       "subbed": true,
-      "title": "One Punch Man 01"
+      "title": "One Punch Man 01",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -9412,7 +9519,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Oppenheimer"
+      "title": "Oppenheimer",
+      "dual_audio": true
     }
   },
   {
@@ -9500,7 +9608,8 @@
       "extension": "mkv",
       "seasons": [],
       "languages": [],
-      "title": "Outlaw Star"
+      "title": "Outlaw Star",
+      "dual_audio": true
     }
   },
   {
@@ -9868,7 +9977,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Predator"
+      "title": "Predator",
+      "dual_audio": true
     }
   },
   {
@@ -10013,7 +10123,10 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Red Riding 1974"
+      "title": "Red Riding 1974",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -10267,7 +10380,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Sakura Wars the Movie"
+      "title": "Sakura Wars the Movie",
+      "dual_audio": true
     }
   },
   {
@@ -10359,7 +10473,10 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Seinfeld"
+      "title": "Seinfeld",
+      "subtitles": [
+        "sl"
+      ]
     }
   },
   {
@@ -10464,7 +10581,10 @@
       ],
       "subbed": true,
       "episodes": [],
-      "title": "Skam"
+      "title": "Skam",
+      "subtitles": [
+        "sv"
+      ]
     }
   },
   {
@@ -10745,7 +10865,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Spider-Man"
+      "title": "Spider-Man",
+      "dual_audio": true
     }
   },
   {
@@ -11259,7 +11380,8 @@
       ],
       "dubbed": true,
       "extension": "mkv",
-      "title": "Supernatural"
+      "title": "Supernatural",
+      "dual_audio": true
     }
   },
   {
@@ -11943,7 +12065,8 @@
       "dubbed": true,
       "seasons": [],
       "languages": [],
-      "title": "The Fifth Element"
+      "title": "The Fifth Element",
+      "dual_audio": true
     }
   },
   {
@@ -12129,7 +12252,10 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "The Insider"
+      "title": "The Insider",
+      "subtitles": [
+        "ro"
+      ]
     }
   },
   {
@@ -12179,7 +12305,8 @@
       "dubbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "The Karate Kid Part III"
+      "title": "The Karate Kid Part III",
+      "dual_audio": true
     }
   },
   {
@@ -12478,7 +12605,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "The Shawshank Redemption"
+      "title": "The Shawshank Redemption",
+      "dual_audio": true
     }
   },
   {
@@ -13218,7 +13346,10 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "The Gorge"
+      "title": "The Gorge",
+      "subtitles": [
+        "pl"
+      ]
     }
   },
   {
@@ -13452,7 +13583,10 @@
       ],
       "episodes": [],
       "seasons": [],
-      "title": "The Nun"
+      "title": "The Nun",
+      "subtitles": [
+        "ko"
+      ]
     }
   },
   {
@@ -13644,7 +13778,10 @@
       ],
       "subbed": true,
       "extension": "mkv",
-      "title": "The Walking Dead"
+      "title": "The Walking Dead",
+      "subtitles": [
+        "fr"
+      ]
     }
   },
   {
@@ -13833,7 +13970,10 @@
         "en"
       ],
       "subbed": true,
-      "title": "Tokyo Ghoul Root A - 07"
+      "title": "Tokyo Ghoul Root A - 07",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -14288,7 +14428,10 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Vampire in Vegas"
+      "title": "Vampire in Vegas",
+      "subtitles": [
+        "nl"
+      ]
     }
   },
   {
@@ -14542,7 +14685,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Western - L'homme qui n'a pas d'étoile"
+      "title": "Western - L'homme qui n'a pas d'étoile",
+      "dual_audio": true
     }
   },
   {
@@ -14745,7 +14889,10 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "X-Men"
+      "title": "X-Men",
+      "subtitles": [
+        "ro"
+      ]
     }
   },
   {
@@ -14807,7 +14954,10 @@
       ],
       "subbed": true,
       "episodes": [],
-      "title": "You"
+      "title": "You",
+      "subtitles": [
+        "sv"
+      ]
     }
   },
   {
@@ -14843,7 +14993,8 @@
       ],
       "dubbed": true,
       "extension": "mkv",
-      "title": "Yu-Gi-Oh! ZEXAL"
+      "title": "Yu-Gi-Oh! ZEXAL",
+      "dual_audio": true
     }
   },
   {
@@ -14875,7 +15026,10 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Zola Maseko - Drum"
+      "title": "Zola Maseko - Drum",
+      "subtitles": [
+        "pt"
+      ]
     }
   },
   {
@@ -16158,7 +16312,8 @@
       "dubbed": true,
       "group": "Anime Time",
       "seasons": [],
-      "languages": []
+      "languages": [],
+      "dual_audio": true
     }
   },
   {
@@ -16257,7 +16412,8 @@
       "site": "BEST-TORRENTS.COM",
       "network": "Amazon",
       "languages": [],
-      "title": "The Penguin"
+      "title": "The Penguin",
+      "dual_audio": true
     }
   },
   {
@@ -16462,7 +16618,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Gamers!"
+      "title": "Gamers!",
+      "dual_audio": true
     }
   },
   {
@@ -16563,7 +16720,8 @@
       "group": "DragsterPS",
       "episodes": [],
       "languages": [],
-      "title": "Yu-Gi-Oh!"
+      "title": "Yu-Gi-Oh!",
+      "dual_audio": true
     }
   },
   {
@@ -16580,7 +16738,10 @@
       "subbed": true,
       "extension": "mkv",
       "seasons": [],
-      "title": "Rebirth"
+      "title": "Rebirth",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -16869,7 +17030,8 @@
       "dubbed": true,
       "group": "F-D",
       "episodes": [],
-      "languages": []
+      "languages": [],
+      "dual_audio": true
     }
   },
   {
@@ -16888,7 +17050,8 @@
       "dubbed": true,
       "group": "F-D",
       "episodes": [],
-      "languages": []
+      "languages": [],
+      "dual_audio": true
     }
   },
   {
@@ -16904,7 +17067,8 @@
       "group": "F-D",
       "seasons": [],
       "languages": [],
-      "title": "Fairy Tail"
+      "title": "Fairy Tail",
+      "dual_audio": true
     }
   },
   {
@@ -17170,7 +17334,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "The Art Of The Steal"
+      "title": "The Art Of The Steal",
+      "dual_audio": true
     }
   },
   {
@@ -17234,7 +17399,8 @@
       "dubbed": true,
       "group": "IceBlue",
       "languages": [],
-      "title": "Naruto"
+      "title": "Naruto",
+      "dual_audio": true
     }
   },
   {
@@ -17280,7 +17446,8 @@
       "dubbed": true,
       "group": "JySzE",
       "episodes": [],
-      "seasons": []
+      "seasons": [],
+      "dual_audio": true
     }
   },
   {
@@ -17296,7 +17463,8 @@
       "dubbed": true,
       "group": "JySzE",
       "episodes": [],
-      "seasons": []
+      "seasons": [],
+      "dual_audio": true
     }
   },
   {
@@ -17344,7 +17512,10 @@
       "extension": "mp4",
       "group": "Kaerizaki-Fansub",
       "seasons": [],
-      "title": "One Piece"
+      "title": "One Piece",
+      "subtitles": [
+        "fr"
+      ]
     }
   },
   {
@@ -17361,7 +17532,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Tsuredure Children"
+      "title": "Tsuredure Children",
+      "dual_audio": true
     }
   },
   {
@@ -17378,7 +17550,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "takt op.Destiny"
+      "title": "takt op.Destiny",
+      "dual_audio": true
     }
   },
   {
@@ -17495,7 +17668,10 @@
       "group": "Neutrinome",
       "episodes": [],
       "seasons": [],
-      "title": "Sword Art Online Alicization"
+      "title": "Sword Art Online Alicization",
+      "subtitles": [
+        "fr"
+      ]
     }
   },
   {
@@ -17516,7 +17692,10 @@
       ],
       "subbed": true,
       "seasons": [],
-      "title": "Soul Land"
+      "title": "Soul Land",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -18048,7 +18227,10 @@
       "subbed": true,
       "group": "TBox",
       "seasons": [],
-      "title": "Dragon Ball Z Full"
+      "title": "Dragon Ball Z Full",
+      "subtitles": [
+        "ja"
+      ]
     }
   },
   {
@@ -18122,7 +18304,8 @@
       "group": "UsifRenegade",
       "seasons": [],
       "languages": [],
-      "title": "Cardcaptor Sakura"
+      "title": "Cardcaptor Sakura",
+      "dual_audio": true
     }
   },
   {
@@ -18138,7 +18321,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Cardcaptor Sakura"
+      "title": "Cardcaptor Sakura",
+      "dual_audio": true
     }
   },
   {
@@ -18161,7 +18345,10 @@
       "extension": "mkv",
       "group": "Valenciano",
       "seasons": [],
-      "title": "Aquarion EVOL"
+      "title": "Aquarion EVOL",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -18239,7 +18426,8 @@
       "group": "bonkai77",
       "seasons": [],
       "languages": [],
-      "title": "RahXephon"
+      "title": "RahXephon",
+      "dual_audio": true
     }
   },
   {
@@ -18257,7 +18445,8 @@
       "episodes": [],
       "seasons": [],
       "languages": [],
-      "title": "Fate Stay Night - Unlimited Blade Works Movie"
+      "title": "Fate Stay Night - Unlimited Blade Works Movie",
+      "dual_audio": true
     }
   },
   {
@@ -18322,7 +18511,10 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "The Great Indian Suicide"
+      "title": "The Great Indian Suicide",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -19017,7 +19209,10 @@
       "size": "6GB",
       "episodes": [],
       "seasons": [],
-      "title": "The Electric State"
+      "title": "The Electric State",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -19056,7 +19251,10 @@
       "size": "850MB",
       "episodes": [],
       "seasons": [],
-      "title": "Migration"
+      "title": "Migration",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -19091,7 +19289,10 @@
       "size": "450MB",
       "episodes": [],
       "seasons": [],
-      "title": "The Electric State"
+      "title": "The Electric State",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -19124,7 +19325,10 @@
       "size": "800MB",
       "episodes": [],
       "seasons": [],
-      "title": "Sonic the Hedgehog 2"
+      "title": "Sonic the Hedgehog 2",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -19158,7 +19362,10 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "The Great Indian Suicide"
+      "title": "The Great Indian Suicide",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -19192,7 +19399,10 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "Thuritham"
+      "title": "Thuritham",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -19251,7 +19461,10 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "Maharaja"
+      "title": "Maharaja",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -19288,7 +19501,10 @@
       ],
       "subbed": true,
       "size": "1GB",
-      "title": "Mirzapur"
+      "title": "Mirzapur",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -19341,7 +19557,10 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "Oppenheimer"
+      "title": "Oppenheimer",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -19428,7 +19647,10 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "Raja Vikramarka"
+      "title": "Raja Vikramarka",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -19459,7 +19681,10 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "Anchakkallakokkan"
+      "title": "Anchakkallakokkan",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -19501,7 +19726,10 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "Guardians of the Galaxy Vol. 3"
+      "title": "Guardians of the Galaxy Vol. 3",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -19575,7 +19803,11 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "Bikram Yogi, Guru, Predator"
+      "title": "Bikram Yogi, Guru, Predator",
+      "subtitles": [
+        "en"
+      ],
+      "dual_audio": true
     }
   },
   {
@@ -19604,7 +19836,10 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "Titanic"
+      "title": "Titanic",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -19643,7 +19878,10 @@
       "extension": "mkv",
       "episodes": [],
       "seasons": [],
-      "title": "Shang-Chi"
+      "title": "Shang-Chi",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -19691,7 +19929,10 @@
       ],
       "subbed": true,
       "size": "2.7GB",
-      "title": "The Wheel of Time"
+      "title": "The Wheel of Time",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -20501,7 +20742,10 @@
         "ru"
       ],
       "subbed": true,
-      "title": "Black Mirror"
+      "title": "Black Mirror",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -20689,6 +20933,461 @@
       "title": "Movie",
       "upscaled": true,
       "year": 2020
+    }
+  },
+  {
+    "title": "[SubsPlease] Frieren - 01 (1080p) [Dual-Audio]",
+    "result": {
+      "dual_audio": true,
+      "dubbed": true,
+      "episodes": [
+        1
+      ],
+      "group": "SubsPlease",
+      "resolution": "1080p",
+      "title": "Frieren"
+    }
+  },
+  {
+    "title": "Frieren.S01E01.DUAL.1080p.WEB.H264-GROUP",
+    "result": {
+      "codec": "avc",
+      "dual_audio": true,
+      "dubbed": true,
+      "episodes": [
+        1
+      ],
+      "group": "GROUP",
+      "quality": "WEB",
+      "resolution": "1080p",
+      "scene": true,
+      "seasons": [
+        1
+      ],
+      "title": "Frieren"
+    }
+  },
+  {
+    "title": "Movie.2020.MULTi.1080p.BluRay.x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "dual_audio": true,
+      "dubbed": true,
+      "group": "GROUP",
+      "quality": "BluRay",
+      "resolution": "1080p",
+      "title": "Movie",
+      "year": 2020
+    }
+  },
+  {
+    "title": "Movie.2020.MULTi-Subs.1080p.BluRay.x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "dual_audio": false,
+      "group": "GROUP",
+      "quality": "BluRay",
+      "resolution": "1080p",
+      "subbed": true,
+      "title": "Movie",
+      "year": 2020
+    }
+  },
+  {
+    "title": "Movie.2020.Dual.Audio.Hindi.English.720p-GROUP",
+    "result": {
+      "dual_audio": true,
+      "dubbed": true,
+      "group": "GROUP",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "resolution": "720p",
+      "title": "Movie",
+      "year": 2020
+    }
+  },
+  {
+    "title": "Anime.S01E01.JA.EN.1080p.WEB-DL.x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "dual_audio": false,
+      "episodes": [
+        1
+      ],
+      "group": "GROUP",
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "quality": "WEB-DL",
+      "resolution": "1080p",
+      "seasons": [
+        1
+      ],
+      "title": "Anime"
+    }
+  },
+  {
+    "title": "Movie.2020.1080p.BluRay.x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "dual_audio": false,
+      "group": "GROUP",
+      "quality": "BluRay",
+      "resolution": "1080p",
+      "title": "Movie",
+      "year": 2020
+    }
+  },
+  {
+    "title": "One Piece 1090 ENG.SUBS 1080p WEB x264-Judas",
+    "result": {
+      "codec": "avc",
+      "episodes": [
+        1090
+      ],
+      "group": "Judas",
+      "languages": [
+        "en"
+      ],
+      "quality": "WEB",
+      "resolution": "1080p",
+      "scene": true,
+      "subbed": true,
+      "subtitles": [
+        "en"
+      ],
+      "title": "One Piece"
+    }
+  },
+  {
+    "title": "Attack.on.Titan.S04E01.Eng-Sub.1080p.WEB-DL.x264-Group",
+    "result": {
+      "codec": "avc",
+      "episodes": [
+        1
+      ],
+      "group": "Group",
+      "languages": [
+        "en"
+      ],
+      "quality": "WEB-DL",
+      "resolution": "1080p",
+      "seasons": [
+        4
+      ],
+      "subbed": true,
+      "subtitles": [
+        "en"
+      ],
+      "title": "Attack on Titan"
+    }
+  },
+  {
+    "title": "Il.Postino.1994.SUB.ITA.BluRay.1080p.x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "group": "GROUP",
+      "languages": [
+        "it"
+      ],
+      "quality": "BluRay",
+      "resolution": "1080p",
+      "subbed": true,
+      "subtitles": [
+        "it"
+      ],
+      "title": "Il Postino",
+      "year": "1994"
+    }
+  },
+  {
+    "title": "Le Fabuleux Destin (2001) 1080p BluRay [Subs.EN] x264-GRP",
+    "result": {
+      "codec": "avc",
+      "group": "GRP",
+      "languages": [
+        "en"
+      ],
+      "quality": "BluRay",
+      "resolution": "1080p",
+      "subbed": true,
+      "subtitles": [
+        "en"
+      ],
+      "title": "Le Fabuleux Destin",
+      "year": "2001"
+    }
+  },
+  {
+    "title": "Inception.2010.MULTi-Subs.1080p.BluRay.x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "group": "GROUP",
+      "quality": "BluRay",
+      "resolution": "1080p",
+      "subbed": true,
+      "title": "Inception",
+      "year": "2010"
+    }
+  },
+  {
+    "title": "The.Matrix.1999.Eng.Subbed.1080p.BluRay.x264-GRP",
+    "result": {
+      "codec": "avc",
+      "group": "GRP",
+      "languages": [
+        "en"
+      ],
+      "quality": "BluRay",
+      "resolution": "1080p",
+      "subbed": true,
+      "subtitles": [
+        "en"
+      ],
+      "title": "The Matrix",
+      "year": "1999"
+    }
+  },
+  {
+    "title": "[Group] Some Anime - 05 [ENG-SUB][1080p][x264].mkv",
+    "result": {
+      "codec": "avc",
+      "container": "mkv",
+      "episodes": [
+        5
+      ],
+      "extension": "mkv",
+      "group": "Group",
+      "languages": [
+        "en"
+      ],
+      "resolution": "1080p",
+      "subbed": true,
+      "subtitles": [
+        "en"
+      ],
+      "title": "Some Anime"
+    }
+  },
+  {
+    "title": "Amelie.2001.VOSTFR.BluRay.720p.x264-GRP",
+    "result": {
+      "codec": "avc",
+      "group": "GRP",
+      "languages": [
+        "fr"
+      ],
+      "quality": "BluRay",
+      "resolution": "720p",
+      "subbed": true,
+      "subtitles": [
+        "fr"
+      ],
+      "title": "Amelie",
+      "year": "2001"
+    }
+  },
+  {
+    "title": "Naruto Shippuden 001 DUBBED 1080p WEB x264-Group",
+    "result": {
+      "codec": "avc",
+      "dubbed": true,
+      "episodes": [
+        1
+      ],
+      "group": "Group",
+      "quality": "WEB",
+      "resolution": "1080p",
+      "scene": true,
+      "title": "Naruto Shippuden"
+    }
+  },
+  {
+    "title": "The Godfather 1972 1080p BluRay x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "group": "GROUP",
+      "quality": "BluRay",
+      "resolution": "1080p",
+      "title": "The Godfather",
+      "year": "1972"
+    }
+  },
+  {
+    "title": "Movie.2020.1080p.WEB.No.Subs.x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "group": "GROUP",
+      "quality": "WEB",
+      "resolution": "1080p",
+      "scene": true,
+      "subbed": true,
+      "title": "Movie",
+      "year": "2020"
+    }
+  },
+  {
+    "title": "Movie.2021.1080p.WEB.Sub.NO.x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "group": "GROUP",
+      "quality": "WEB",
+      "resolution": "1080p",
+      "scene": true,
+      "subbed": true,
+      "subtitles": [
+        "no"
+      ],
+      "title": "Movie",
+      "year": "2021"
+    }
+  },
+  {
+    "title": "Planet.Earth.II.2016.S01E01.2160p.BluRay.HLG.HEVC-GROUP",
+    "result": {
+      "resolution": "2160p",
+      "year": 2016,
+      "quality": "BluRay",
+      "hdr": [
+        "HLG"
+      ],
+      "codec": "hevc",
+      "group": "GROUP",
+      "episodes": [
+        1
+      ],
+      "seasons": [
+        1
+      ],
+      "languages": [],
+      "title": "Planet Earth II"
+    }
+  },
+  {
+    "title": "Blue.Planet.II.S01.2160p.UHD.BluRay.HLG.DTS-HD.MA.5.1.x265-GROUP",
+    "result": {
+      "resolution": "2160p",
+      "quality": "BluRay",
+      "hdr": [
+        "HLG"
+      ],
+      "codec": "hevc",
+      "channels": [
+        "5.1"
+      ],
+      "audio": [
+        "DTS Lossless"
+      ],
+      "group": "GROUP",
+      "episodes": [],
+      "seasons": [
+        1
+      ],
+      "languages": [],
+      "title": "Blue Planet II"
+    }
+  },
+  {
+    "title": "Movie.2024.2160p.WEB-DL.DV.HDR10+.HEVC-GROUP",
+    "result": {
+      "resolution": "2160p",
+      "year": 2024,
+      "quality": "WEB-DL",
+      "bit_depth": "10bit",
+      "hdr": [
+        "DV",
+        "HDR10+"
+      ],
+      "codec": "hevc",
+      "group": "GROUP",
+      "episodes": [],
+      "seasons": [],
+      "languages": [],
+      "title": "Movie"
+    }
+  },
+  {
+    "title": "Movie.2024.2160p.WEB-DL.DV.HLG.HEVC-GROUP",
+    "result": {
+      "resolution": "2160p",
+      "year": 2024,
+      "quality": "WEB-DL",
+      "hdr": [
+        "DV",
+        "HLG"
+      ],
+      "codec": "hevc",
+      "group": "GROUP",
+      "episodes": [],
+      "seasons": [],
+      "languages": [],
+      "title": "Movie"
+    }
+  },
+  {
+    "title": "Movie.1080p.WEB-DL.Diamond.x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "edition": "Diamond Edition",
+      "group": "GROUP",
+      "quality": "WEB-DL",
+      "resolution": "1080p",
+      "title": "Movie"
+    }
+  },
+  {
+    "title": "Movie.1080p.BluRay.Diamond.x264-GROUP",
+    "result": {
+      "codec": "avc",
+      "edition": "Diamond Edition",
+      "group": "GROUP",
+      "quality": "BluRay",
+      "resolution": "1080p",
+      "title": "Movie"
+    }
+  },
+  {
+    "title": "Movie.2160p.Remux.Diamond.HEVC-GROUP",
+    "result": {
+      "codec": "hevc",
+      "edition": "Diamond Edition",
+      "group": "GROUP",
+      "quality": "REMUX",
+      "resolution": "2160p",
+      "title": "Movie"
+    }
+  },
+  {
+    "title": "Movie.2160p.WEB-DL.Diamond.HDR10.HEVC-GROUP",
+    "result": {
+      "bit_depth": "10bit",
+      "codec": "hevc",
+      "edition": "Diamond Edition",
+      "group": "GROUP",
+      "hdr": [
+        "HDR"
+      ],
+      "quality": "WEB-DL",
+      "resolution": "2160p",
+      "title": "Movie"
+    }
+  },
+  {
+    "title": "Movie.2160p.WEB-DL.HDR10.Diamond.HEVC-GROUP",
+    "result": {
+      "bit_depth": "10bit",
+      "codec": "hevc",
+      "edition": "Diamond Edition",
+      "group": "GROUP",
+      "hdr": [
+        "HDR"
+      ],
+      "quality": "WEB-DL",
+      "resolution": "2160p",
+      "title": "Movie"
     }
   },
   {
