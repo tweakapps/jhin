@@ -1078,6 +1078,30 @@ var handlers = []handler{
 		Remove:       true,
 		KeepMatching: true,
 	},
+	// audio: DTS-ES (Extended Surround). Runs ahead of the channels block, so
+	// the 6.1 layout it disambiguates against is still in the title, and
+	// ahead of the language block so a
+	// genuine trailing "ES" is not read as Spanish, and before the generic
+	// lossy DTS handler so it gets its own value.
+	//
+	// A hyphen or colon binds the two halves into one token, so DTS-ES and
+	// DTS:ES are always the format. A dot or a space is the scene separator
+	// between tokens, so "DTS.ES" is DTS audio followed by the Spanish
+	// language tag — unless a 6.1 or Discrete/Matrix marker follows, which
+	// only the format carries.
+	{
+		Gate:  gate("dts"),
+		Field: "audio",
+		Process: scanValid("audio", regexp.MustCompile(`(?i)\bDTS([:\-. ])ES\b`), func(title string, idxs []int) bool {
+			if sep := title[idxs[2]]; sep == ':' || sep == '-' {
+				return true
+			}
+			return audioDtsEsExtendedRegex.MatchString(title[idxs[1]:])
+		}, true, false, true),
+		Transform:    toValueSet(`DTS-ES`),
+		Remove:       true,
+		KeepMatching: true,
+	},
 	// channels: \b6[\.\- ]1(.?ch(annel)?)?\b
 	{
 		Field:        "channels",
@@ -1130,16 +1154,6 @@ var handlers = []handler{
 		Transform:    toValueSet(`DTS:X`),
 		KeepMatching: true,
 		Remove:       true,
-	},
-	// audio: \bDTS[:\-. ]ES\b (DTS-ES; must run before the language block so
-	// the trailing "ES" is not read as Spanish, and before the generic lossy
-	// DTS handler below so it gets its own value)
-	{
-		Field:        "audio",
-		Pattern:      regexp.MustCompile(`(?i)\bDTS[:\-. ]ES\b`),
-		Transform:    toValueSet(`DTS-ES`),
-		Remove:       true,
-		KeepMatching: true,
 	},
 	// audio: \b(?!.+HR)(DTS.?HD.?Ma(ster)?|DTS.?X)\b
 	{
